@@ -604,7 +604,7 @@ if (data === 'check_subscription') {
     const referrerId = tempReferrers.get(userId) || null;
     await addUser(userId, referrerId);
     tempReferrers.delete(userId);
-    return bot.sendMessage(chatId, '✅ Obuna tasdiqlandi!', mainMenu());
+    return bot.sendMessage(chatId, '✅ Obuna tasdiqlandi!', menu());
   } else {
     const sub = await getSubscriptionMessage();
     return bot.sendMessage(chatId, sub.text, sub.options);
