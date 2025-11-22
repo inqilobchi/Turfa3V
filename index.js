@@ -1087,18 +1087,6 @@ bot.on('message', async (msg) => {
       const sub = await getSubscriptionMessage();
       return bot.sendMessage(chatId, sub.text, sub.options);
     }
-
-    await bot.sendPhoto(chatId,
-      "https://t4.ftcdn.net/jpg/15/52/60/81/360_F_1552608155_ceYNML9jnarcDTVU40HxbJ7ywRsB9dRm.jpg",
-      {
-        caption: `<b>Assalomu alaykum <a href="tg://user?id=${chatId}">${name}</a>!</b>\n\nBotimiz orqali tekinga raqam, sovg'a va ko'rish reaksiya olishingiz mumkin ✅\n\n<blockquote><b>📍 Hamkor: @TurfaSeenBot</b></blockquote>`,
-        parse_mode: 'HTML',
-        reply_markup: {
-          keyboard: menu,
-          resize_keyboard: true
-        }
-      }
-    );
   }
 
   // "📱 Raqam olish" tugmasi uchun yangi handler
