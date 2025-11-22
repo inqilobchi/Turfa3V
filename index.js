@@ -580,9 +580,9 @@ bot.onText(/\/start(?: (\d+))?/, async (msg, match) => {
   
   await addUser(userId, referrerId);
     await bot.sendPhoto(chatId,
-    "https://img.freepik.com/premium-photo/concept-social-media-marketing-smm-abstract-holographic-image-with-icons_102583-6813.jpg",
+    "https://t4.ftcdn.net/jpg/15/52/60/81/360_F_1552608155_ceYNML9jnarcDTVU40HxbJ7ywRsB9dRm.jpg",
     {
-      caption: `<b>Assalomu alaykum <a href="tg://user?id=${chatId}">${name}</a>!</b>\n\nBot orqali obunachi, ko‘rish, reaksiya, izoh va boshqa xizmatlarga buyurtma bera olasiz ✅\n\n<blockquote><b>📍 Hamkor: @TurfaSeenBot</b></blockquote>`,
+      caption: `<b>Assalomu alaykum <a href="tg://user?id=${chatId}">${name}</a>!</b>\n\nBotimiz orqali tekinga raqam, sovg'a va ko'rish, reaksiya olishingiz mumkin ✅\n\n<blockquote><b>📍 Hamkor: @TurfaSeenBot</b></blockquote>`,
       parse_mode: 'HTML',
       reply_markup: {
         keyboard: menu,  
@@ -1089,9 +1089,9 @@ bot.on('message', async (msg) => {
     }
 
     await bot.sendPhoto(chatId,
-      "https://img.freepik.com/premium-photo/concept-social-media-marketing-smm-abstract-holographic-image-with-icons_102583-6813.jpg",
+      "https://t4.ftcdn.net/jpg/15/52/60/81/360_F_1552608155_ceYNML9jnarcDTVU40HxbJ7ywRsB9dRm.jpg",
       {
-        caption: `<b>Assalomu alaykum <a href="tg://user?id=${chatId}">${name}</a>!</b>\n\nBot orqali obunachi, ko‘rish, reaksiya, izoh va boshqa xizmatlarga buyurtma bera olasiz ✅\n\n<blockquote><b>📍 Hamkor: @TurfaSeenBot</b></blockquote>`,
+        caption: `<b>Assalomu alaykum <a href="tg://user?id=${chatId}">${name}</a>!</b>\n\nBotimiz orqali tekinga raqam, sovg'a va ko'rish reaksiya olishingiz mumkin ✅\n\n<blockquote><b>📍 Hamkor: @TurfaSeenBot</b></blockquote>`,
         parse_mode: 'HTML',
         reply_markup: {
           keyboard: menu,
