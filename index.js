@@ -109,9 +109,7 @@ async function getSubscriptionMessage() {
       buttons.push([{ text: `${channel}`, url: `https://t.me/${channel.replace('@', '')}` }]);
     }
   } 
-  const SUPPORT_BOT_LINK = 'https://t.me/TurfaSeenBot?start=user19';
-  const SUPPORT_BOT_TITILE = 'Turfa Seen | Rasmiy🤖';
-  buttons.push([{ text: `${SUPPORT_BOT_TITILE}`, url: SUPPORT_BOT_LINK }]);  
+
   buttons.push([{ text: '✅ Obuna bo‘ldim', callback_data: 'check_subscription' }]);
 
   return {
@@ -222,32 +220,7 @@ const receiveSite = 'https://receive-sms-online.info';
 const sevenSimSite = 'https://temp-sms.org';
 const onlineSimSites = [
      'https://sms24.me',
-     'https://sms24.me/en/countries/de',
-     'https://sms24.me/en/countries/kr',
-     'https://sms24.me/en/countries/kr/2',
-     'https://sms24.me/en/countries/kr/3',
-     'https://sms24.me/en/countries/kr/4',
-     'https://sms24.me/en/countries/uz',
-     'https://sms24.me/en/countries/usa',
-     'https://sms24.me/en/countries/us/2',
-     'https://sms24.me/en/countries/us/3',
-     'https://sms24.me/en/countries/jp',
-     'https://sms24.me/en/countries/pt',
-     'https://sms24.me/en/countries/ar',
-     'https://sms24.me/en/countries/cn',
-     'https://sms24.me/en/countries/at',
-     'https://sms24.me/en/countries/bg',
-     'https://sms24.me/en/countries/hk',
-     'https://sms24.me/en/countries/in',
-     'https://sms24.me/en/countries/id',
-     'https://sms24.me/en/countries/my',
-     'https://sms24.me/en/countries/mx',
-     'https://sms24.me/en/countries/nl',
-     'https://sms24.me/en/countries/ng',
-     'https://sms24.me/en/countries/vn',
-     'https://sms24.me/en/countries/br',
-     'https://sms24.me/en/countries/hr',
-     'https://sms24.me/en/countries/ph'
+     'https://sms24.me/en/countries/de'
 ];
 const PHONE_RE = /(\+?\d[\d\-\s()]{6,}\d)/g;
 const timeoutOptions = { timeout: 15000 };
