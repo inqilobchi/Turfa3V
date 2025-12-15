@@ -217,6 +217,10 @@ if (i + 1 < pageNumbers.length) {
 }
 
 const receiveSite = 'https://receive-sms-online.info';
+const sevenSimSite = 'https://temp-sms.org';
+const onlineSimSites = [
+     'https://sms24.me'
+];
 const PHONE_RE = /(\+?\d[\d\-\s()]{6,}\d)/g;
 const timeoutOptions = { timeout: 15000 };
 
