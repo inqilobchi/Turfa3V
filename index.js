@@ -217,11 +217,6 @@ if (i + 1 < pageNumbers.length) {
 }
 
 const receiveSite = 'https://receive-sms-online.info';
-const sevenSimSite = 'https://temp-sms.org';
-const onlineSimSites = [
-     'https://sms24.me',
-     'https://sms24.me/en/countries/de'
-];
 const PHONE_RE = /(\+?\d[\d\-\s()]{6,}\d)/g;
 const timeoutOptions = { timeout: 15000 };
 
@@ -992,7 +987,7 @@ if (data === "order_view") {
   }
     if (data === 'click_pay') {
     payState[callbackQuery.from.id] = { step: 'amount' };
-    return bot.sendMessage(callbackQuery.from.id, `<b>💳 Karta raqam : 9860 1201 6718 6416</b>\n💰 Iltimos, kiritmoqchi bo'lgan pulni miqdorini kiriting\n<b>(min: 5000, max: 50000):</b>`, {parse_mode : 'HTML'});
+    return bot.sendMessage(callbackQuery.from.id, `<b>💳 Karta raqam : 4073420081889580</b>\n💰 Iltimos, kiritmoqchi bo'lgan pulni miqdorini kiriting\n<b>(min: 5000, max: 50000):</b>`, {parse_mode : 'HTML'});
   }
 
   if (data.startsWith('pay_accept_') || data.startsWith('pay_cancel_')) {
